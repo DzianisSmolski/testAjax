@@ -45,7 +45,7 @@ public class TestRequest extends HttpServlet {
 	 * @see HttpServlet#doOptions(HttpServletRequest, HttpServletResponse)
 	 */
 	protected void doOptions(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("I is Options!");
+		System.out.println("I is Options !");
 		response.setHeader("Access-Control-Allow-Origin", "*");
 		response.setHeader("Access-Control-Allow-Headers", "Content-Type, AUTHTOKEN");
 		response.setHeader("Access-Control-Allow-Methods:", "POST, GET, OPTIONS");
